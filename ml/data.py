@@ -1,6 +1,7 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from ml.config import RAW_DATA_PATH, TARGET, TEST_SIZE, RANDOM_STATE
+
+from ml.config import RANDOM_STATE, RAW_DATA_PATH, TARGET, TEST_SIZE
 
 
 def load_data() -> pd.DataFrame:
