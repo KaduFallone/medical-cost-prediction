@@ -12,3 +12,4 @@ models/*
 .venv/
 
 CLAUDE.md
+.claude/
