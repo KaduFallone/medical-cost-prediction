@@ -25,10 +25,10 @@ from ml.features import SmokerObeseFeature
 
 def build_pipeline() -> Pipeline:
     """
-    Building the model pipe:
+    Build the model pipeline:
     - add smoker_obese feature
     - preprocessing
-    - training
+    - linear regression
     """
     preprocessor = ColumnTransformer(
         [

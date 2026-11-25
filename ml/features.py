@@ -4,7 +4,7 @@ from sklearn.base import BaseEstimator, TransformerMixin
 class SmokerObeseFeature(BaseEstimator, TransformerMixin):
     """
     Add a column indicating whether a patient is both a
-    smoker and obese (1 if true , 0 if false).
+    smoker and obese (1 if true, 0 if false)
     """
 
     def fit(self, X, y=None):

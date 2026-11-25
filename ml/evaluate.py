@@ -2,7 +2,7 @@ from sklearn.metrics import mean_absolute_error, r2_score, root_mean_squared_err
 
 
 def evaluate(model, X, y) -> dict[str, float]:
-    """Return the metrics"""
+    """Return MAE, RMSE and R² of the model on (X, y)"""
 
     y_pred = model.predict(X)
 
