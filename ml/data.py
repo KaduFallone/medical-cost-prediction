@@ -19,7 +19,7 @@ def load_data() -> pd.DataFrame:
 
 def split_data(df: pd.DataFrame):
     """
-    - - Split the data into "X" and "y"
+    - Split the data into X and y
     - Split the data into training and testing sets
     """
     X = df.drop(columns=[TARGET])
