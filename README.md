@@ -22,7 +22,7 @@ Test set (20% of the data, `random_state=42`):
 
 ![Actual vs predicted](reports/figures/07-actual-vs-predicted.png)
 
-Most points sit on the red line (perfect prediction). The scattered points below it are the few large underestimates (people who paid much more than their 6 features suggest), described in [Limitations](#limitations).
+Most points lie close to the red line (perfect prediction), slightly above it for cheaper plans (a small, consistent overestimate). The scattered points below it are the few large underestimates (people who paid much more than their 6 features suggest), described in [Limitations](#limitations).
 
 ## Key finding: the smoker × BMI interaction
 
