@@ -20,6 +20,10 @@ Test set (20% of the data, `random_state=42`):
 
 5-fold cross-validation on the training set (MAE): **Linear + `smoker_obese` 2,542 ± 188** vs. Random Forest 2,770 ± 204. The linear model wins in 4 of 5 folds, so the advantage is not a lucky split.
 
+![Actual vs predicted](reports/figures/07-actual-vs-predicted.png)
+
+Most points sit on the red line (perfect prediction). The scattered points below it are the few large underestimates (people who paid much more than their 6 features suggest), described in [Limitations](#limitations).
+
 ## Key finding: the smoker × BMI interaction
 
 ![Charges vs BMI by smoker](reports/figures/04-charges-vs-bmi-by-smoker.png)
